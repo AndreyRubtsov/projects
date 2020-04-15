@@ -40,6 +40,9 @@ for i in array2:
 with open("net_users.csv", "w") as my_file:
     my_file.writelines(array3)
 
+
+print(os.getcwd())
+os.chdir('/tmp')
 # создаем реммина файлы
 for i in array3:
     ping_string = 'ping -c 1 ' + i.rstrip().split(',')[3]
