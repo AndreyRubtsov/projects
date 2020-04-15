@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 import re
 import os
+import tarfile
+import shutil
 
 # создаем файл с ip и названиями машин
 array = []
@@ -126,3 +128,5 @@ for i in array3:
                                                                      "sharefolder="
         with open(file_name, "w") as my_file:
             my_file.writelines(remmina_data)
+# создаем файлик архивчик
+shutil.make_archive('remmina', 'gztar', '1')
