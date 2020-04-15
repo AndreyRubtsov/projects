@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 import re
 import os
-import tarfile
 import shutil
 
 # создаем файл с ip и названиями машин
