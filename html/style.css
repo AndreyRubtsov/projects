@@ -1,0 +1,69 @@
+body {
+    color: black;
+    background-color: #f8f8f8;
+}
+h1 {
+    text-align: center;
+}
+
+.menu a{
+    font-size: 20px;
+    color:darkblue;
+    font-family: "Times New Roman", serif, Verdana;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+.menu li{
+    list-style-type: none
+}
+
+.item_info{
+    font-size: 18px;
+    color:black;
+    font-weight: 400;
+    background: #eaeaea;
+}
+.item_short{
+    font-size: 14px;
+    color:#707070;
+    font-style: italic;
+    line-height: 16px;
+}
+.item_long{
+    font-size: 16px;
+    color:#484343;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 24px;
+    text-align: left;
+}
+.item_vars{
+    font-size: 18px;
+    color:#484343;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    list-style-image: url(img/list.jpg);
+}
+
+.contact_form{
+    font-size: 14px;
+    color:green;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+
+}
+.contact_form input{
+    font-size: 14px;
+    font-family: "Times New Roman", serif, Verdana;
+    color:red;
+    line-height: 16px;
+    width: 20%;
+    text-align: center;
+    border: 1x solid grey;
+}
+.photo_border{
+    outline: 2px solid red;
+}
