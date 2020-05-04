@@ -19,3 +19,6 @@ content:
 - Lexical reduplication
 - This is Python
 - Fix str
+- Replace lambda with def
+- Nested functions
+- Re-write using lambda functions
