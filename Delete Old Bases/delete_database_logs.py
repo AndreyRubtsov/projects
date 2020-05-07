@@ -2,7 +2,7 @@ import re
 import os
 import shutil
 
-PATH = 'C:\Program Files\1cv8\srvinfo\reg_1541'
+PATH = 'C:\\Program Files\\1cv8\srvinfo\\reg_1541_test'
 os.chdir(PATH)
 
 # считываем список
