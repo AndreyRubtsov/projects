@@ -1,7 +1,7 @@
 import re
 import os
 import shutil
-
+print('sd')
 # считываем список
 with open("1CV8Clst.lst", "r") as file_base_list:
     raw_data = file_base_list.readlines()
