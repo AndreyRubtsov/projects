@@ -21,11 +21,6 @@ const_files = ['http://10.1.0.228/mirror/Open_Orders_Reports/BEL_Open_Orders_New
                'http://10.1.0.228/mirror/Open_Orders_Reports/UKR_KOU_Open_Orders_New.xls',\
                'http://10.1.0.228/mirror/Accounts_Receivable_Rosneft/E03-1.Accounts_Receivable_Rosneft.xls',\
                'http://10.1.0.228/mirror/Supplier_Payment_Terms_Report/010.Supplier_Payment_Terms.xls']
-const_sync_file = '/var/www/srv-spb-010/sap/sync_data.txt'
-prev_sync_file = '/var/www/srv-spb-010/sap/prev_sync_data.txt'
-modified_file = '/var/www/srv-spb-010/sap/modified.txt'
-difs = []
-actual_dict = {}
 
 #print(test.encode('string-escape'))
 def download_file(path_from, path_to):
@@ -73,7 +68,7 @@ def files_links(folder):
     files = []
     global local_path
     global period
-    global const_sync_file
+
     old_date = datetime.today() - timedelta(days=period)
     try:
         with urllib.request.urlopen(folder) as folder_content:
@@ -90,15 +85,10 @@ def files_links(folder):
         file = file.replace('/mirror', '')
         full_local_path = local_path + file.replace('%20', ' ').replace('%25', '%')
         date_file_str = link.previous[:10].strip()
-        file_size = link.previous[20:33].strip()
         date_file = datetime.strptime(date_file_str, '%m/%d/%Y')
-
         # check file's date and Availability
-        with open(const_sync_file,'a') as my_file:
-            my_file.writelines(str(file_size)+' '+file+'\n')
         if old_date < date_file and not os.path.isfile(full_local_path):
             files.append(file)
-
         # /bel/683316/683363%20CoA.pdf
     return files
 
@@ -120,8 +110,6 @@ for c_file in const_files:
 #    mt.start()
 
 
-with open(const_sync_file,'w') as my_file:
-    my_file.write('')
 
 for dir in dirs:
     try:
@@ -134,7 +122,6 @@ for dir in dirs:
         with fileinput.FileInput(full_local_path + 'index.html', inplace=True, backup='.bak') as index_file:
             for line in index_file:
                 print(line.replace('/mirror', ''), end='')
-
         for folder in folders_links(full_path):
             for file in files_links(folder):
                 # 2. download absent files
@@ -144,26 +131,5 @@ for dir in dirs:
     except Exception as e:
         print(e)
         print('dir', dir)
-
 #        print("folder", folder)
 #        print("file", file)
-
-with open(const_sync_file, 'r') as f:
-    for line in f:
-        size, filename = line.split(' ')
-        actual_dict[filename] = size
-
-
-with open(prev_sync_file, 'r') as f:
-    for line in f:
-        size, filename = line.split(' ')
-        if filename in actual_dict:
-            if actual_dict[filename] != size:
-                print(actual_dict[filename], size)
-                difs.append(filename)
-
-with open(modified_file, 'a') as f:
-    for dif in difs:
-        f.writelines(dif)
-
-shutil.copyfile(const_sync_file,prev_sync_file)
