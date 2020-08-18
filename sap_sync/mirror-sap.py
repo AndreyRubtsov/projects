@@ -21,7 +21,7 @@ with open(prev_sync_file, 'r') as f:
 
 with open(modif_sync_file, 'w') as f:
     for dif in difs:
-        f.writelines(dif+'\n')
+        f.writelines(dif)
 
 
 shutil.copyfile(const_sync_file, prev_sync_file)
