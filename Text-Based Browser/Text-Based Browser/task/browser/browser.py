@@ -47,22 +47,27 @@ def save_to_file(dir, data):
         f.write(data)
 
 
+my_stack = []
 while True:
     url = input()
 
     if url == 'exit':
         break
+    elif url == 'back':
+        url = my_stack.pop()
+        url = my_stack.pop()
     elif '.' not in url:
         print('Input error!')
         continue
-    elif url == 'bloomberg.com':
+    if url == 'bloomberg.com':
         print(bloomberg_com)
         data = bloomberg_com
         save_to_file(url, data=data)
+        my_stack.append(url)
     elif url == 'nytimes.com':
         print(nytimes_com)
         data = nytimes_com
         save_to_file(url, data=data)
+        my_stack.append(url)
     else:
         print('error')
-
