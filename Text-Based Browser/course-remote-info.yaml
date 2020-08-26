@@ -18,8 +18,6 @@ stages:
   step: 7215
 topics:
   0:
-  - title: Boolean logic
-    theory_id: 6025
   - title: Introduction to Python
     theory_id: 5204
   - title: Overview of the basic program
@@ -50,6 +48,8 @@ topics:
     theory_id: 5953
   - title: For loop
     theory_id: 6065
+  - title: Boolean logic
+    theory_id: 6025
   1:
   - title: Files
     theory_id: 6989

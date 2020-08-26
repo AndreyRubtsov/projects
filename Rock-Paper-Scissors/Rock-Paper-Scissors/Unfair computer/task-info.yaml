@@ -35,9 +35,10 @@ files:
   text: |
     # Write your code here
   learner_created: false
-- name: rps/rating.txt
-  visible: true
-  learner_created: true
 feedback_link: https://hyperskill.org/projects/78/stages/431/implement
 status: Solved
-record: 9
+feedback:
+  message: Congratulations! Continue on <a href="https://hyperskill.org/projects/78/stages/431/implement">JetBrains
+    Academy</a>
+  time: Mon, 24 Aug 2020 17:06:21 UTC
+record: 1

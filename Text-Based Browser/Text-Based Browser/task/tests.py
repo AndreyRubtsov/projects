@@ -5,6 +5,8 @@ from hstest.check_result import CheckResult
 import os
 import shutil
 
+from colorama import Fore
+
 import sys
 if sys.platform.startswith("win"):
     import _locale
@@ -19,16 +21,16 @@ class TextBasedBrowserTest(StageTest):
 
     def generate(self):
 
-        dir_for_files = 'tb_tabs'
+        dir_for_files = os.path.join(os.curdir, 'tb_tabs')
         return [
             TestCase(
-                stdin='bloomberg.com\nbloomberg\nexit',
-                attach='Bloomberg',
+                stdin='2.python-requests.org\nexit',
+                attach='requests',
                 args=[dir_for_files]
             ),
             TestCase(
-                stdin='nytimes.com\nnytimes\nexit',
-                attach='The New York Times',
+                stdin='en.wikipedia.org\nwiki\nexit',
+                attach='Wikipedia',
                 args=[dir_for_files]
             ),
             TestCase(
@@ -41,7 +43,7 @@ class TextBasedBrowserTest(StageTest):
             ),
         ]
 
-    def _check_files(self, path_for_tabs: str, right_word: str) -> int:
+    def _check_files(self, path_for_tabs: str, right_word: str) -> bool:
         """
         Helper which checks that browser saves visited url in files and
         provides access to them.
@@ -54,17 +56,15 @@ class TextBasedBrowserTest(StageTest):
         path, dirs, filenames = next(os.walk(path_for_tabs))
 
         for file in filenames:
-            print("file: {}".format(file))
-            with open(os.path.join(path_for_tabs, file), 'r', encoding='utf-8') as tab:
-                try:
-                    content = tab.read()
-                except UnicodeDecodeError:
-                    return -1
-                print(content)
-                if 'html' in content and right_word in content:
-                    return 1
 
-        return 0
+            with open(os.path.join(path_for_tabs, file), 'r', encoding='utf-8') as tab:
+                content = tab.read()
+
+                if '</p>' not in content and '</script>' not in content:
+                    if '</div>' not in content and right_word in content:
+                        return True
+
+        return False
 
     def check(self, reply, attach):
 
@@ -84,22 +84,23 @@ class TextBasedBrowserTest(StageTest):
             if not os.path.isdir(path_for_tabs):
                 return CheckResult.wrong("There are no directory for tabs")
 
-            check_files_result = self._check_files(path_for_tabs, right_word)
-            if not check_files_result:
+            if not self._check_files(path_for_tabs, right_word):
                 return CheckResult.wrong('There are no correct saved tabs')
-            elif check_files_result == -1:
-                return CheckResult.wrong('An error occurred while reading your saved tab. '
-                                         'Perhaps you used the wrong encoding?')
 
             try:
                 shutil.rmtree(path_for_tabs)
             except PermissionError:
                 return CheckResult.wrong("Impossible to remove the directory for tabs. Perhaps you haven't closed some file?")
 
-            if '<body' in reply and right_word in reply:
-                return CheckResult.correct()
 
-            return CheckResult.wrong('You haven\'t print result of request')
+            if not Fore.BLUE in reply:
+                return CheckResult.wrong('There are no blue refs in output')
+
+            if '</p>' not in reply and '</div>' not in reply:
+                if right_word in reply:
+                    return CheckResult.correct()
+
+            return CheckResult.wrong('You haven\'t parsed result of request')
 
 
 TextBasedBrowserTest('browser.browser').run_tests()
