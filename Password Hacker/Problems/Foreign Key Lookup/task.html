@@ -1,0 +1,19 @@
+<b>Foreign Key Lookup</b> <a class=right href="https://hyperskill.org/learn/step/7044">Open on JetBrains Academy</a>
+<br><br>
+<html>
+ <head></head>
+ <body>
+  <p>You have a model <code class="language-python">Engine</code> with fields <em>type</em><em>, volume</em> and a model <code class="language-python">Car</code><em> </em>with fields <em>color</em>, <em>engine</em>, <em>speed</em>:</p> 
+  <pre><code class="language-python">class Engine(models.Model):
+    type = models.CharField(max_length=32)
+    volume = models.IntegerField()
+
+
+class Car(models.Model):
+    color = models.CharField(max_length=32)
+    engine = models.ForeignKey(Engine, on_delete=models.CASCADE)
+    speed = models.FloatField()</code></pre> 
+  <p>Filter cars which have the "vee" type of engine. The result should be a QuerySet object.</p>
+ </body>
+</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 15 seconds</font><br><br>
+<a href="https://hyperskill.org/learn/step/7036">Show topic summary</a>

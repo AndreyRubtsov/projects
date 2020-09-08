@@ -1,0 +1,18 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    from django import forms
+
+
+    class ProductForm(forms.Form):
+        ...
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7653
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/7653">JetBrains
+    Academy</a></html>
+  time: Tue, 08 Sep 2020 12:56:50 UTC
+record: -1
