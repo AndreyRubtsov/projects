@@ -204,5 +204,5 @@ files:
         test.stop_server()
   learner_created: false
 feedback_link: https://hyperskill.org/projects/80/stages/445/implement
-status: Unchecked
-record: -1
+status: Solved
+record: 7

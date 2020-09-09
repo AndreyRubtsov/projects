@@ -2,70 +2,76 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6683ae6-e632-4892-8fff-d0c627c1085b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Problems/Combine Conditions/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Combine Conditions/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Combine Conditions/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Combine Conditions/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Count Objects (1)/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Count Objects (1)/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Count Objects (1)/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Count Objects (1)/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Count Objects/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Count Objects/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Count Objects/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Count Objects/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Custom Form/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Custom Form/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Custom Form/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Custom Form/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Foreign Key Lookup/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Foreign Key Lookup/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Foreign Key Lookup/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Foreign Key Lookup/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Genres/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Genres/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Genres/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Genres/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Hello World/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Hello World/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Hello World/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Hello World/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/How many sentences?/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/How many sentences?/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/How many sentences?/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/How many sentences?/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Movie reviews/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Movie reviews/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Movie reviews/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Movie reviews/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Porter Stemmer/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Porter Stemmer/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Porter Stemmer/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Porter Stemmer/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Register Models/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Register Models/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Register Models/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Register Models/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Signup View/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Signup View/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Signup View/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Signup View/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Tagged word/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Tagged word/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Tagged word/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Tagged word/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Update Object in the Database/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Update Object in the Database/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Update Object in the Database/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Update Object in the Database/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/WordNet Lemmatization/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/WordNet Lemmatization/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/WordNet Lemmatization/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/WordNet Lemmatization/task.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Password Hacker.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Password Hacker/task/hacking/logins.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Password Hacker/task/hacking/passwords.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Password Hacker/task/logins.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Adding a media file/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Adding a media file/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Adding a media file/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Adding a media file/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Include template/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Include template/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Include template/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Include template/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Math problem/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Math problem/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Math problem/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Math problem/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Route to contacts/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Route to contacts/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Route to contacts/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Route to contacts/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rock-Paper-Scissors/.idea/Rock-Paper-Scissors.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Simple Banking System/.idea/Simple Banking System.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Text-Based Browser/.idea/Text-Based Browser.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zookeeper/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zookeeper/.idea/Zookeeper.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zookeeper/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zookeeper/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zookeeper/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zookeeper/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zookeeper/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zookeeper/Zookeeper/Rush into print./task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zookeeper/Zookeeper/Rush into print./task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zookeeper/Zookeeper/Rush into print./task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zookeeper/Zookeeper/Show me an animal!/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zookeeper/Zookeeper/Show me an animal!/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zookeeper/Zookeeper/Show me an animal!/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zookeeper/Zookeeper/Sustainable care &lt;3/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zookeeper/Zookeeper/Sustainable care &lt;3/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zookeeper/Zookeeper/Sustainable care &lt;3/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zookeeper/Zookeeper/What's inside?/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zookeeper/Zookeeper/What's inside?/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zookeeper/Zookeeper/What's inside?/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zookeeper/Zookeeper/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zookeeper/Zookeeper/task/animals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zookeeper/Zookeeper/task/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zookeeper/Zookeeper/task/zookeeper/zookeeper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zookeeper/course-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zookeeper/course-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zookeeper/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zookeeper/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zookeeper/test_helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/Hexadecimal/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Hexadecimal/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/What year is it?/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/What year is it?/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Password Hacker/Catching exception/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Password Hacker/Catching exception/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Password Hacker/Simple brute force/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Password Hacker/Simple brute force/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Password Hacker/Smarter, dictionary-based brute force/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Password Hacker/Smarter, dictionary-based brute force/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Password Hacker/Time-based vulnerability/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Password Hacker/Time-based vulnerability/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Password Hacker/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Password Hacker/lesson-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Password Hacker/task/hacking/hack.py" beforeDir="false" afterPath="$PROJECT_DIR$/Password Hacker/task/hacking/hack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Password Hacker/task/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Password Hacker/task/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/A part of something bigger/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/A part of something bigger/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/A part of something bigger/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/A part of something bigger/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/A valid character/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/A valid character/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/A valid character/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/A valid character/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Changing the type of integers/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Changing the type of integers/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Count Objects/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Count Objects/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/State your name/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/State your name/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The final word/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/The final word/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The final word/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/The final word/task.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Problems/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/lesson-info.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,6 +95,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -252,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599458353521</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="some code">
+      <created>1599576957502</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599576957502</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -260,10 +274,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="some code" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="583" y="125" width="746" height="850" key="CommitChangelistDialog2" timestamp="1599458353403">
+    <state x="583" y="125" width="746" height="850" key="CommitChangelistDialog2" timestamp="1599576957376">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state x="583" y="125" width="746" height="850" key="CommitChangelistDialog2/0.25.1920.1055/1920.0.1920.1080@0.25.1920.1055" timestamp="1599458353403" />
+    <state x="583" y="125" width="746" height="850" key="CommitChangelistDialog2/0.25.1920.1055/1920.0.1920.1080@0.25.1920.1055" timestamp="1599576957376" />
     <state width="1878" height="115" key="GridCell.Tab.0.bottom" timestamp="1599488555212">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
@@ -288,10 +302,19 @@
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="471" y="188" key="SettingsEditor/0.25.1920.1055/1920.0.1920.1080@0.25.1920.1055" timestamp="1599457934058" />
-    <state x="555" y="289" width="802" height="523" key="Vcs.Push.Dialog.v2" timestamp="1599458354872">
+    <state x="555" y="289" width="802" height="523" key="Vcs.Push.Dialog.v2" timestamp="1599576960346">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state x="555" y="289" width="802" height="523" key="Vcs.Push.Dialog.v2/0.25.1920.1055/1920.0.1920.1080@0.25.1920.1055" timestamp="1599458354872" />
+    <state x="555" y="289" width="802" height="523" key="Vcs.Push.Dialog.v2/0.25.1920.1055/1920.0.1920.1080@0.25.1920.1055" timestamp="1599576960346" />
+    <state x="689" y="449" width="428" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599630118167">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="689" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1920.1055/1920.0.1920.1080@0.25.1920.1055" timestamp="1599630118167" />
+    <state x="605" y="378" width="428" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/48.27.1552.873@48.27.1552.873" timestamp="1599592360542" />
+    <state x="487" y="214" width="672" height="678" key="search.everywhere.popup" timestamp="1599592823874">
+      <screen x="48" y="27" width="1552" height="873" />
+    </state>
+    <state x="487" y="214" width="672" height="678" key="search.everywhere.popup/48.27.1552.873@48.27.1552.873" timestamp="1599592823874" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -300,11 +323,6 @@
           <url>file://$PROJECT_DIR$/main.py</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Password Hacker/task/hacking/hack.py</url>
-          <line>2</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
