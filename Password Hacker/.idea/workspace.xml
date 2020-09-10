@@ -2,77 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6683ae6-e632-4892-8fff-d0c627c1085b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Password Hacker.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Password Hacker/task/hacking/logins.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Password Hacker/task/hacking/passwords.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Password Hacker/task/logins.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Adding a media file/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Adding a media file/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Adding a media file/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Adding a media file/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Include template/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Include template/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Include template/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Include template/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Math problem/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Math problem/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Math problem/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Math problem/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Route to contacts/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Route to contacts/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Route to contacts/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Route to contacts/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Rock-Paper-Scissors/.idea/Rock-Paper-Scissors.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Simple Banking System/.idea/Simple Banking System.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Text-Based Browser/.idea/Text-Based Browser.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zookeeper/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zookeeper/.idea/Zookeeper.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zookeeper/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zookeeper/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zookeeper/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zookeeper/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zookeeper/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zookeeper/Zookeeper/Rush into print./task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zookeeper/Zookeeper/Rush into print./task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zookeeper/Zookeeper/Rush into print./task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zookeeper/Zookeeper/Show me an animal!/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zookeeper/Zookeeper/Show me an animal!/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zookeeper/Zookeeper/Show me an animal!/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zookeeper/Zookeeper/Sustainable care &lt;3/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zookeeper/Zookeeper/Sustainable care &lt;3/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zookeeper/Zookeeper/Sustainable care &lt;3/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zookeeper/Zookeeper/What's inside?/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zookeeper/Zookeeper/What's inside?/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zookeeper/Zookeeper/What's inside?/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zookeeper/Zookeeper/lesson-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zookeeper/Zookeeper/task/animals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zookeeper/Zookeeper/task/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zookeeper/Zookeeper/task/zookeeper/zookeeper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zookeeper/course-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zookeeper/course-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zookeeper/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zookeeper/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zookeeper/test_helper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Password Hacker/Catching exception/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Password Hacker/Catching exception/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Password Hacker/Simple brute force/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Password Hacker/Simple brute force/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Password Hacker/Smarter, dictionary-based brute force/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Password Hacker/Smarter, dictionary-based brute force/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Password Hacker/Time-based vulnerability/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Password Hacker/Time-based vulnerability/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Password Hacker/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Password Hacker/lesson-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Password Hacker/task/hacking/hack.py" beforeDir="false" afterPath="$PROJECT_DIR$/Password Hacker/task/hacking/hack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Password Hacker/task/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Password Hacker/task/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/A part of something bigger/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/A part of something bigger/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/A part of something bigger/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/A part of something bigger/task.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/A valid character/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/A valid character/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/A valid character/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/A valid character/task.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/Changing the type of integers/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Changing the type of integers/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/Count Objects/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Count Objects/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/State your name/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/State your name/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/The final word/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/The final word/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/The final word/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/The final word/task.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hangman/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hangman/Hangman/Error!/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hangman/Hangman/Error!/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hangman/Hangman/Hello, Hangman/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hangman/Hangman/Hello, Hangman/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hangman/Hangman/Help is on the way/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hangman/Hangman/Help is on the way/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hangman/Hangman/I want to play a game/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hangman/Hangman/I want to play a game/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hangman/Hangman/Keep trying/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hangman/Hangman/Keep trying/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hangman/Hangman/Make your choice/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hangman/Hangman/Make your choice/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hangman/Hangman/Menu, please/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hangman/Hangman/Menu, please/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hangman/Hangman/The value of life/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hangman/Hangman/The value of life/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hangman/Hangman/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hangman/Problems/Car/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hangman/Problems/Car/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hangman/Problems/Car/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hangman/Problems/Car/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hangman/Problems/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hangman/course-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hangman/course-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hangman/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/VirtualEnvironment/bin/easy_install" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VirtualEnvironment/bin/easy_install" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/VirtualEnvironment/bin/easy_install-3.8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VirtualEnvironment/bin/easy_install-3.8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/VirtualEnvironment/bin/pip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VirtualEnvironment/bin/pip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/VirtualEnvironment/bin/pip3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VirtualEnvironment/bin/pip3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/VirtualEnvironment/bin/pip3.8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VirtualEnvironment/bin/pip3.8" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

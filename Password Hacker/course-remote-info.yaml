@@ -6,14 +6,19 @@ hyperskill_project:
 stages:
 - id: 442
   step: 7216
+  is_completed: true
 - id: 443
   step: 7217
+  is_completed: true
 - id: 444
   step: 7218
+  is_completed: true
 - id: 445
   step: 7219
+  is_completed: true
 - id: 446
   step: 7220
+  is_completed: false
 topics:
   0:
   - title: Units of information
