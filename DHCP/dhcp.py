@@ -294,4 +294,4 @@ try:
         for fix in fixed:
             print('| ' + format(fix[0], '<15') + ' | ' + format(fix[1], '<17'))
 except IndexError:
-    print('If you want to see fixed devices use:    dhcp.py -a ')
+    print('If you want to see fixed devices use:    DHCP.py -a ')
