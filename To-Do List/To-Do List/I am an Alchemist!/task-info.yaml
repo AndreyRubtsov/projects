@@ -161,6 +161,19 @@ files:
     if __name__ == '__main__':
         ToDoList('todolist.todolist').run_tests()
   learner_created: false
+- name: todolist/todo.db
+  visible: true
+  learner_created: true
+- name: todo.db
+  visible: true
+  learner_created: true
+- name: temp.db
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/105/stages/571/implement
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations! Continue on <a href="https://hyperskill.org/projects/105/stages/571/implement">JetBrains
+    Academy</a>
+  time: Wed, 16 Sep 2020 07:36:33 UTC
+record: 2
