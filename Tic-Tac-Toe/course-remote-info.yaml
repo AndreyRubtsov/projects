@@ -6,14 +6,19 @@ hyperskill_project:
 stages:
 - id: 399
   step: 6503
+  is_completed: true
 - id: 400
   step: 6504
+  is_completed: true
 - id: 401
   step: 6505
+  is_completed: true
 - id: 402
   step: 6506
+  is_completed: true
 - id: 403
   step: 6507
+  is_completed: true
 topics:
   0:
   - title: Introduction to Python

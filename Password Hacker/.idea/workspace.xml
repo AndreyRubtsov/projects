@@ -2,37 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6683ae6-e632-4892-8fff-d0c627c1085b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Hangman/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hangman/Hangman/Error!/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hangman/Hangman/Error!/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hangman/Hangman/Hello, Hangman/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hangman/Hangman/Hello, Hangman/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hangman/Hangman/Help is on the way/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hangman/Hangman/Help is on the way/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hangman/Hangman/I want to play a game/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hangman/Hangman/I want to play a game/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hangman/Hangman/Keep trying/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hangman/Hangman/Keep trying/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hangman/Hangman/Make your choice/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hangman/Hangman/Make your choice/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hangman/Hangman/Menu, please/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hangman/Hangman/Menu, please/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hangman/Hangman/The value of life/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hangman/Hangman/The value of life/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hangman/Hangman/lesson-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hangman/Problems/Car/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hangman/Problems/Car/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hangman/Problems/Car/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hangman/Problems/Car/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hangman/Problems/lesson-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hangman/course-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hangman/course-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hangman/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/VirtualEnvironment/bin/easy_install" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VirtualEnvironment/bin/easy_install" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/VirtualEnvironment/bin/easy_install-3.8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VirtualEnvironment/bin/easy_install-3.8" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/VirtualEnvironment/bin/pip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VirtualEnvironment/bin/pip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/VirtualEnvironment/bin/pip3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VirtualEnvironment/bin/pip3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/VirtualEnvironment/bin/pip3.8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VirtualEnvironment/bin/pip3.8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tic-Tac-Toe/Tic-Tac-Toe/Fight!/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tic-Tac-Toe/Tic-Tac-Toe/Fight!/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tic-Tac-Toe/Tic-Tac-Toe/First move!/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tic-Tac-Toe/Tic-Tac-Toe/First move!/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tic-Tac-Toe/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tic-Tac-Toe/course-remote-info.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
