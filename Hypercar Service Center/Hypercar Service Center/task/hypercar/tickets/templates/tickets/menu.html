@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu</title>
+</head>
+<body>
+<ul>
+    {% for path, link_text in choices.items %}
+    <li>
+        <a href="/get_ticket/{{ path }}">{{ link_text }}</a>
+    </li>
+    {% endfor %}
+</ul>
+</body>
+</html>

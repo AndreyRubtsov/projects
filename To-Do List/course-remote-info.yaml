@@ -14,8 +14,6 @@ stages:
   step: 9622
 topics:
   0:
-  - title: Computer programming
-    theory_id: 8739
   - title: Intro to computational thinking
     theory_id: 8742
   - title: Components of computational thinking

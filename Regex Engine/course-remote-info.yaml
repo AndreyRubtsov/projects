@@ -6,16 +6,22 @@ hyperskill_project:
 stages:
 - id: 619
   step: 10239
+  is_completed: true
 - id: 620
   step: 10240
+  is_completed: true
 - id: 621
   step: 10241
+  is_completed: true
 - id: 622
   step: 10242
+  is_completed: true
 - id: 623
   step: 10243
+  is_completed: true
 - id: 624
   step: 10244
+  is_completed: false
 topics:
   0:
   - title: Regexps basics
@@ -36,6 +42,8 @@ topics:
     theory_id: 5913
   - title: Program with numbers
     theory_id: 5872
+  - title: List
+    theory_id: 5979
   - title: Invoking a function
     theory_id: 5891
   - title: Declaring a function
@@ -46,37 +54,41 @@ topics:
     theory_id: 5932
   - title: Elif statement
     theory_id: 5926
+  - title: For loop
+    theory_id: 6065
   - title: Basic data types
     theory_id: 5852
   - title: Integer arithmetic
     theory_id: 5865
+  - title: Quotes and multi-line strings
+    theory_id: 5814
+  - title: Escape sequences
+    theory_id: 7130
   - title: Variables
     theory_id: 5859
   - title: Boolean logic
     theory_id: 6025
   - title: Comparisons
     theory_id: 5920
+  - title: Basic string methods
+    theory_id: 6842
+  - title: Split and join
+    theory_id: 6972
   1:
   - title: Computer algorithms
     theory_id: 4953
   - title: Recursion basics
     theory_id: 5984
-  - title: Computer programming
-    theory_id: 8739
   - title: Intro to computational thinking
     theory_id: 8742
   - title: Components of computational thinking
     theory_id: 8745
-  - title: List
-    theory_id: 5979
   - title: Indexes
     theory_id: 6189
   - title: Slicing
     theory_id: 6177
   - title: While loop
     theory_id: 5940
-  - title: For loop
-    theory_id: 6065
   - title: Functional decomposition
     theory_id: 9571
   - title: List comprehension
